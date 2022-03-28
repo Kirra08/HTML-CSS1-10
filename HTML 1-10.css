@@ -7,7 +7,7 @@
 .head {
   width: auto;
   height: 50px;
-  background-color: #FF9A4B;
+  background-color: #ff9a4b;
 }
 .box {
   width: auto;
@@ -25,24 +25,24 @@
   width: 300px;
   height: auto;
   margin: 50px 30px 50px 0;
-  padding:10px  10px ;
-  background-color: #EEEEEE;
+  padding: 10px 10px;
+  background-color: #eeeeee;
   position: relative;
 }
 .contents:nth-child(2) {
   width: 300px;
   height: auto;
   margin: 50px 30px 50px 0;
-  padding:10px  10px ;
-  background-color: #EEEEEE;
+  padding: 10px 10px;
+  background-color: #eeeeee;
   position: relative;
 }
 .contents:nth-child(3) {
   width: 300px;
   height: auto;
   margin: 50px 0 50px 0;
-  padding:10px  10px ;
-  background-color: #EEEEEE;
+  padding: 10px 10px;
+  background-color: #eeeeee;
   position: relative;
 }
 .img-contents {
@@ -73,7 +73,7 @@
 .step-text {
   width: auto;
   height: auto;
-  background-color: #FF9A4B;
+  background-color: #ff9a4b;
   color: white;
   position: absolute;
   top: 0px;
@@ -82,5 +82,29 @@
 .foot {
   width: auto;
   height: 50px;
-  background-color: #AAAAAA;
+  background-color: #aaaaaa;
+}
+
+@media screen and (max-width: 768px) {
+  .box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .main-box {
+    display: block;
+    width: 90%;
+  }
+  .contents:nth-child(1) {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .contents:nth-child(2) {
+    width: 100%;
+    margin: 0;
+  }
+  .contents:nth-child(3) {
+    width: 100%;
+    margin-top: 20px;
+  }
 }
